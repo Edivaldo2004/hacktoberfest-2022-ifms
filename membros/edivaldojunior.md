@@ -50,8 +50,29 @@ Site feito com FrameWork Nodejs e Bootstrap: https://github.com/Edivaldo2004/Sit
 .......                               .........
 ...................        ....................
 
+<style>
+.center{
+    display:flex;
+    column-gap: 12px;    
+}
+.rotate{
+   transition: 2s 
+}
+.rotate:hover{
+    transform: scale(1.1);
+    transition: 2s
+}
+.nada{
+    transition: 2s 
+}
+.nada:hover{
+    transform: rotateY(360deg);
+    transition: 2s 
+}
+    </style>
 
-<img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" width="100px">
-<img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width="100px">
-<img src="https://img.icons8.com/fluency/344/javascript.png 2x" width="100px">
-<img src="https://image.shutterstock.com/image-vector/node-vector-logo-backend-programming-600w-1597753591.jpg" width="100px">
+<div class="center">
+<img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" width="100px" class="rotate">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width="100px" class="nada">
+<img src="https://image.shutterstock.com/image-vector/node-vector-logo-backend-programming-600w-1597753591.jpg" width="100px" class="rotate">
+</div>
